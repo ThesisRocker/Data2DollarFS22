@@ -15,7 +15,7 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 
 api = tweepy.API(auth)
 
-startDate = datetime.datetime(2020, 1, 1, 0, 0, 0)
+startDate = datetime.datetime(2010, 1, 1, 0, 0, 0)
 endDate = datetime.datetime(2022, 3, 7, 0, 0, 0)
 
 utc = pytz.UTC
@@ -45,13 +45,13 @@ while (tmpTweets[-1].created_at > startDate):
             })
 
 # Write JSON file
-with open('tweetsJPSpinas.json', 'w') as file:
+with open('SpinasJP.json', 'w') as file:
     file.write(json.dumps(tweet_dict_list))
 
 print("Json File ready")
 
 # Excel file
-workbook = xlsxwriter.Workbook("JPSpinas.xlsx")
+workbook = xlsxwriter.Workbook("SpinasJP.xlsx")
 worksheet = workbook.add_worksheet()
 row = 0
 for tweet in tweets:
@@ -63,3 +63,4 @@ for tweet in tweets:
 
 workbook.close()
 print("Excel file ready")
+print("Fertig")
