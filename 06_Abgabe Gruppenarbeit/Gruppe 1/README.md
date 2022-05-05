@@ -12,3 +12,5 @@ Im Ordner "get data" findet man den Scraper für die Webseite local.ch. Der rele
 Im Ordner "meteomatics" ist das Skript zur Erfassung der Solarstrahlung per Gemeinde gespeichert. Auch die Resultate der Datenbeschaffung sind dort vorzufinden.
 
 Im Ordner "sonnendach" befinden sich die Skripte und die Resultate des API-Scraping der Webseite sonnendach.ch, welche wir für die Gemeinde Brügg BE durchgeführt haben. 
+
+Die vollständigen Datensätze sind in unserem GitHub Ordner abgelegt, da sie zu gross waren, um auf diesen Ordner zu pushen. Es wurde vor der Abgabe mit Arne abgesprochen und gut geheissen. Arne hat den Einladungslink erhalten und hat bestätigten Zugriff auf den Ordner. 
